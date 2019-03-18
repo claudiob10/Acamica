@@ -1,0 +1,13 @@
+SVD para análisis semántico en textos
+En el video de SVD nombramos una técnica conocida como LSA: Latent Semantic Analysis (también conocida como LSI: Latent Semantic Indexing).
+
+Esta técnica pertenece al mundo del procesamiento del lenguaje natural. Su objetivo es analizar las relaciones entre un conjunto de documentos (textos) y sus términos (palabras generalmente).
+
+LSA parte de asumir que palabras que sean similares en significado ocurrirán en posiciones similares en el texto.
+
+Y lo mejor de todo es que no hay que aprender nada nuevo para utilizar esta técnica. Simplemente aplicar SVD sobre la matriz tf-idf que vimos durante el módulo de procesamiento del lenguaje natural.
+
+Un ejemplo real
+En este link vas a encontrar un ejemplo de aplicación real de LSA sobre documentos de noticias. Este ejemplo forma parte de la documentación de la biblioteca scikit-learn.
+
+https://scikit-learn.org/stable/auto_examples/text/plot_document_clustering.html#sphx-glr-auto-examples-text-plot-document-clustering-py
